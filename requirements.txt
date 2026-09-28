@@ -1,0 +1,1 @@
+markitdown[pdf,docx,pptx,epub]>=0.1.0
