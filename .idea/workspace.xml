@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c282b367-98de-4a6e-9fe4-4be35d9fc59b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/doc2md.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Melhorias" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc2md/cli.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc2md/cli.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc2md/images.py" beforeDir="false" afterPath="$PROJECT_DIR$/doc2md/images.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="18" />
+    <option name="cachedIndexableFilesCount" value="37" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -40,23 +35,23 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0883883476483185" />
-      <entry key="MS500" value="1.615572206672458" />
-      <entry key="S2" value="1.8857675191023606" />
-      <entry key="S5" value="1.9526379980439375" />
-      <entry key="S10" value="1.9760317607762246" />
-      <entry key="S30" value="1.9919459181002113" />
-      <entry key="S60" value="1.9969807507666764" />
-      <entry key="M2" value="2.204219389207201" />
-      <entry key="M5" value="7.432082760795466" />
-      <entry key="M10" value="21.883658259713897" />
-      <entry key="M15" value="35.57371210282343" />
-      <entry key="M30" value="62.79879568201654" />
-      <entry key="H1" value="86.22841034837636" />
-      <entry key="H2" value="101.87303238452289" />
-      <entry key="H4" value="110.95228454352984" />
-      <entry key="D1" value="119.25350078408097" />
-      <entry key="W1" value="120.74867599349987" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0002161019933056" />
+      <entry key="S2" value="1.1212452387927168" />
+      <entry key="S5" value="1.4299974557095831" />
+      <entry key="S10" value="1.655901453219987" />
+      <entry key="S30" value="1.981567556965462" />
+      <entry key="S60" value="2.513747377029246" />
+      <entry key="M2" value="3.2873360093224506" />
+      <entry key="M5" value="4.497614083102608" />
+      <entry key="M10" value="8.30658900971575" />
+      <entry key="M15" value="15.040604760606811" />
+      <entry key="M30" value="39.11686573712202" />
+      <entry key="H1" value="72.11668899232569" />
+      <entry key="H2" value="100.72815887305669" />
+      <entry key="H4" value="119.7877239312307" />
+      <entry key="D1" value="138.80476155143992" />
+      <entry key="W1" value="142.3921319087127" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -78,23 +73,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.10304767745731679" />
-      <entry key="MS500" value="1.0078517984510278" />
-      <entry key="S2" value="1.6758778448612772" />
-      <entry key="S5" value="1.862611692330344" />
-      <entry key="S10" value="1.9299409989205194" />
-      <entry key="S30" value="1.9763364155598495" />
-      <entry key="S60" value="1.9891447972739864" />
-      <entry key="M2" value="2.200288492693786" />
-      <entry key="M5" value="7.430455914489282" />
-      <entry key="M10" value="21.88276695981393" />
-      <entry key="M15" value="35.573066291873495" />
-      <entry key="M30" value="62.79841988688949" />
-      <entry key="H1" value="86.22819926649788" />
-      <entry key="H2" value="101.87291903872158" />
-      <entry key="H4" value="110.9522255971182" />
-      <entry key="D1" value="119.25349061244383" />
-      <entry key="W1" value="120.74867453146368" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9891858233666646" />
+      <entry key="S2" value="1.118308525005398" />
+      <entry key="S5" value="1.428650659851298" />
+      <entry key="S10" value="1.6551652560318884" />
+      <entry key="S30" value="1.9812911397279462" />
+      <entry key="S60" value="2.5135827546994967" />
+      <entry key="M2" value="3.2872343920443186" />
+      <entry key="M5" value="4.497552799943071" />
+      <entry key="M10" value="8.306479632588875" />
+      <entry key="M15" value="15.04044641058568" />
+      <entry key="M30" value="39.11666669279281" />
+      <entry key="H1" value="72.11652215393109" />
+      <entry key="H2" value="100.72804918235839" />
+      <entry key="H4" value="119.7876607792905" />
+      <entry key="D1" value="138.80474968769286" />
+      <entry key="W1" value="142.39213017840314" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -127,13 +122,14 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "terminal"
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-821f704e66d9-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.9437.214" />
+        <option value="bundled-python-sdk-73a66231627c-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.10968.92" />
       </set>
     </attachedChunks>
   </component>

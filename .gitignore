@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# PyInstaller (o .spec é código-fonte e permanece versionado)
+build/
+dist/
+
+# Saídas de execução
+saida/

@@ -1,4 +1,4 @@
-"""Extração de imagens embutidas: salva apenas PNGs relevantes em assets/."""
+"""Extração de imagens embutidas: salva apenas PNGs relevantes em <out_dir>/assets/."""
 
 import base64
 import re
@@ -8,7 +8,7 @@ from .config import MIN_PNG_BYTES
 
 
 def extract_base64_images(text: str, assets_dir: Path, stem: str) -> tuple[str, int]:
-    """Salva PNGs embutidos (>= 10 KB) em assets/ e limpa o resto.
+    """Salva PNGs embutidos (>= 10 KB) em <out_dir>/assets/ e limpa o resto.
     Retorna (texto atualizado, quantidade de imagens salvas)."""
     pattern = re.compile(r"!\[([^\]]*)\]\(data:image/(\w+);base64,([^)]+)\)")
     counter = 0
