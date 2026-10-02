@@ -7,6 +7,7 @@ from pathlib import Path
 
 from .config import VIA_LIBREOFFICE
 from .images import extract_base64_images
+from .normalize import normalize_markdown
 
 try:
     from markitdown import MarkItDown
@@ -80,13 +81,15 @@ def convert_file(src: Path, out_dir: Path) -> tuple[Path | None, str]:
 
         text, n_imgs = extract_base64_images(text, out_dir / "assets" / src.stem,
                                              src.stem)
+        text, detalhe_norm = normalize_markdown(text)
         dest = out_dir / f"{src.stem}.md"
         dest.write_text(text, encoding="utf-8")
 
         if tmp:
             shutil.rmtree(tmp, ignore_errors=True)
 
-        detail = f"{len(text):,} caracteres"
+        detail = f"{len(text):,} caracteres" + (f", {detalhe_norm}"
+                                                if detalhe_norm else "")
         if n_imgs:
             detail += f", {n_imgs} imagem(ns) .png"
         return dest, detail
